@@ -2,30 +2,30 @@ import './Navbar.css'
 const Navbar = () => {
     return (
         <header>
-        <div className="nav-wrapper">
             <div className="logo-container">
-                <img className="logo" src="https://i.imgur.com/gea725J.png" alt="Logo" />
+                <img className="logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/JD_Sports_logo.svg/1200px-JD_Sports_logo.svg.png" alt="Logo" />
             </div>
-            <nav>
-                <input className="hidden" type="checkbox" id="menuToggle" />
-                <label className="menu-btn" htmlFor="menuToggle">
-                    <div className="menu"></div>
-                    <div className="menu"></div>
-                    <div className="menu"></div>
-                </label>
-                <div className="nav-container">
-                    <ul className="nav-tabs">
-                        <li className="nav-tab">Home</li>
-                        <li className="nav-tab">Products</li>
-                        <li className="nav-tab">Services</li>
-                        <li className="nav-tab">FAQ</li>
-                        <li className="nav-tab">Contact</li>
-                        <li className="nav-tab">Careers</li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
+
+            <ul className="nav-links">
+                <li className="nav-link">
+                    <span>Home</span>
+                    <span className='underline'></span>
+                </li>
+                <li className="nav-link">
+                    <span>About</span>
+                    <span className='underline'></span>
+                </li>
+                <li className="nav-link">
+                    <span>Projects</span>
+                    <span className='underline'></span>
+                </li>
+            </ul>
+
+            <div className="contact-container">
+                <span>Contact</span>
+                <span className='underline'></span>
+            </div>
+        </header>
     )
 }
 
