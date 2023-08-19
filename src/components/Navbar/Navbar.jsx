@@ -2,6 +2,7 @@ import './Navbar.css'
 const Navbar = () => {
     return (
         <header>
+
             <div className="logo-container">
                 <img className="logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/JD_Sports_logo.svg/1200px-JD_Sports_logo.svg.png" alt="Logo" />
             </div>
@@ -25,6 +26,7 @@ const Navbar = () => {
                 <span>Contact</span>
                 <span className='underline'></span>
             </div>
+            
         </header>
     )
 }
