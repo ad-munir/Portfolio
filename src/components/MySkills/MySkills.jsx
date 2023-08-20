@@ -16,19 +16,19 @@ import Skill from './Skill';
 
 
 const skills = [
-    { name: 'React', icon: react },
-    { name: 'JavaScript', icon: javascript },
-    { name: 'PHP', icon: php },
-    { name: 'CSS', icon: css },
-    { name: 'Bootstrap', icon: bootstrap },
     { name: 'HTML', icon: html },
-    { name: 'Laravel', icon: laravel },
-    { name: 'Java', icon: java },
-    { name: 'jQuery', icon: jquery },
-    { name: 'Spring', icon: spring },
+    { name: 'CSS', icon: css },
+    { name: 'JavaScript', icon: javascript },
     { name: 'Docker', icon: docker },
+    { name: 'React', icon: react },
+    { name: 'Spring', icon: spring },
+    { name: 'PHP', icon: php },
+    { name: 'Laravel', icon: laravel },
+    { name: 'Bootstrap', icon: bootstrap },
+    { name: 'Java', icon: java },
     { name: 'MySQL', icon: mysql },
-    { name: 'MongoDB', icon: mongodb }
+    { name: 'MongoDB', icon: mongodb },
+    { name: 'jQuery', icon: jquery }
 ];
 
 

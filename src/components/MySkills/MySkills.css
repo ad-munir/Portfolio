@@ -28,7 +28,7 @@
 }
 
 .skill-cercle:hover {
-    transform: rotate(90deg);
+    transform: rotate(360deg);
 }
 
 .skill-cercle {
@@ -44,8 +44,10 @@
 
 .skill-card img {
     height: 60%;
+    width: 60%;
 }
 .skill-name {
     font-size: 17px;
     font-weight: 500;
+    color: #4c4949;
 }
