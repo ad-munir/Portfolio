@@ -1,10 +1,29 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
 }
 
+body {
+	min-height: 100vh;
+	overflow-x: hidden;
+	/* background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+
+.home { background-color: #f0f0f0; }
+.about { background-color: #e0e0e0; }
+.my-skills { background-color: #d0d0d0; }
+
+/* 
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +58,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */

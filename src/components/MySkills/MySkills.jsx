@@ -1,4 +1,5 @@
 import './MySkills.css';
+import java from'./../../assets/java.svg'
 
 const MySkills = () => {
     return (
@@ -9,7 +10,7 @@ const MySkills = () => {
                     <h3 className="skill-title">Backend Development</h3>
                     <ul className="technology-list">
                         <li>
-                            <img src="https://assets.stickpng.com/images/58480979cef1014c0b5e4901.png" alt="Java" />
+                            <img src={java} alt="Java" />
                             Java EE
                         </li>
                         <li>

@@ -1,14 +1,14 @@
-// import './App.css'
+import './App.css'
 import About from './components/About/About'
 import HeroSection from './components/HeroSection/HeroSection'
 import MySkills from './components/MySkills/MySkills'
-import Navbar from './components/Navbar/Navbar'
+import Social from './components/Social/Social'
 
 function App() {
   
   return (
     <>
-      <Navbar />
+      <Social />
       <HeroSection />
       <About />
       <MySkills />
