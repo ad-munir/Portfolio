@@ -1,7 +1,7 @@
 import './App.css'
 import About from './components/About/About'
 import HeroSection from './components/HeroSection/HeroSection'
-import MySkills from './components/MySkills/MySkills'
+import SkillsEducation from './components/SkillsEducation/SkillsEducation'
 import Social from './components/Social/Social'
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Social />
       <HeroSection />
       <About />
-      <MySkills />
+      <SkillsEducation />
     </>
   )
 }
