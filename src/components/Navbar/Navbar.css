@@ -58,13 +58,6 @@ header {
 	align-items: center;
 }
 
-.underline {
-	background-color: gold;
-	width: 0;
-	height: 2px;
-	transition: width 0.3s;
-}
-
 .contact-container:hover .underline {
 	width: 50px;
 }

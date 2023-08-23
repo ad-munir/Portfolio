@@ -1,10 +1,15 @@
 import './Social.css'
 const Social = () => {
     return (
-        <ul className="social-container">
-            <li><i className="fa-brands fa-github"></i></li>
-            <li><i className="fa-brands fa-linkedin-in"></i></li>
-        </ul>
+        <div className="social-container">
+                <a href="">
+                    <i className="fa-brands fa-github"></i>
+                </a>
+
+                <a href="">
+                    <i className="fa-brands fa-linkedin-in"></i>
+                </a>
+        </div>
     )
 }
 
