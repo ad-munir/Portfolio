@@ -1,4 +1,3 @@
-import './SkillsEducation.css'
 import react from './../../assets/react.svg'
 import javascript from './../../assets/javascript.svg'
 import php from './../../assets/php.svg'

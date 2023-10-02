@@ -1,8 +1,9 @@
 import './App.css'
-import About from './components/About/About'
-import HeroSection from './components/HeroSection/HeroSection'
+import About from './components/About'
+import Certificats from './components/Certificats'
+import HeroSection from './components/HeroSection'
 import SkillsEducation from './components/SkillsEducation/SkillsEducation'
-import Social from './components/Social/Social'
+import Social from './components/Social'
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
       <HeroSection />
       <About />
       <SkillsEducation />
+      <Certificats />
     </>
   )
 }

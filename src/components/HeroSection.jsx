@@ -1,6 +1,5 @@
-import './HeroSection.css';
-import Navbar from './../Navbar/Navbar'
-import avatar from './../../assets/avatar.png'
+import Navbar from './Navbar'
+import avatar from './../assets/avatar.png'
 const HeroSection = () => {
     return (
         <div className='home'>
